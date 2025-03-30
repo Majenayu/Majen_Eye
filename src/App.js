@@ -1,13 +1,4 @@
 import React from "react";
-import EyeTracker from "./components/EyeTracker";  // Ensure EyeTracker.js exists
-import "./index.css";  // Ensure index.css exists
-
+import EyeTracker from "./components/EyeTracker";  
 function App() {
-  return (
-    <div>
-      <EyeTracker />
-    </div>
-  );
-}
-
-export default App;
+  return (  <div> <EyeTracker /> </div> );}export default App;
