@@ -6,7 +6,7 @@
   width: 100vw;
   height: 130vh;
   overflow: hidden;
-  background-color: black; /* Prevents white flashes */
+  background-color: black; 
 }
 
 .full-screen-image {
