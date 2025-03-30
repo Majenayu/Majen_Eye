@@ -2,9 +2,8 @@ import React, { useState, useEffect } from "react";
 
 const EyeTracker = () => {
   const [position, setPosition] = useState({ x: window.innerWidth / 2, y: window.innerHeight / 2 });
-  const faceImage = "/th.jpeg"; // Ensure this image is in `public/`
-
-  // Eye positions relative to the full-screen image
+  const faceImage = "/th.jpeg"; 
+  
   const eyeLeft = { top: "40%", left: "42%" };
   const eyeRight = { top: "40%", left: "58%" };
 
