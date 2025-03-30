@@ -1,0 +1,17 @@
+.eye-tracker-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 25;
+  width: 100vw;
+  height: 130vh;
+  overflow: hidden;
+  background-color: black; /* Prevents white flashes */
+}
+
+.full-screen-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
