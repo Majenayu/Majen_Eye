@@ -1,3 +1,17 @@
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![React](https://img.shields.io/badge/React-18.2.0-61dafb)
+![Stars](https://img.shields.io/github/stars/Majenayu/Majen_Eye?style=social)
+![Forks](https://img.shields.io/github/forks/Majenayu/Majen_Eye?style=social)
+![Issues](https://img.shields.io/github/issues/Majenayu/Majen_Eye)
+![Last Commit](https://img.shields.io/github/last-commit/Majenayu/Majen_Eye)
+![Contributors](https://img.shields.io/github/contributors/Majenayu/Majen_Eye)
+![JavaScript](https://img.shields.io/badge/JavaScript-69.8%25-yellow)
+![Live Demo](https://img.shields.io/badge/demo-live-success)
+
+
 �️MjenEyeInteacive Mose&E Tracker98HTMLHTML16rdCSSCSS1.6bluRctRact-18..61fintactivweb ppcatiofatumutracking an y-following animasmjnye-1Mjn_EyMjn_EyMjenEyeMose&ETracker s 
 - -[@Majeayu](htps://ghb.cm/Majeayu) 
 - Shres- [@Shryas140472](https://thub.com/Sheyas140472
