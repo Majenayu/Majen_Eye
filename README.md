@@ -1,127 +1,58 @@
+# Majen Eye
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![React](https://img.shields.io/badge/React-18.2.0-61dafb)
-![Stars](https://img.shields.io/github/stars/Majenayu/Majen_Eye?style=social)
-![Forks](https://img.shields.io/github/forks/Majenayu/Majen_Eye?style=social)
-![Issues](https://img.shields.io/github/issues/Majenayu/Majen_Eye)
-![Last Commit](https://img.shields.io/github/last-commit/Majenayu/Majen_Eye)
-![Contributors](https://img.shields.io/github/contributors/Majenayu/Majen_Eye)
-![JavaScript](https://img.shields.io/badge/JavaScript-69.8%25-yellow)
-![Live Demo](https://img.shields.io/badge/demo-live-success)
+A React 18 single-page application for browser-based eye tracking. The UI mounts an `EyeTracker` component and renders the tracking experience from the client without a server-side API.
 
+## Architecture
 
-�️MjenEyeInteacive Mose&E Tracker98HTMLHTML16rdCSSCSS1.6bluRctRact-18..61fintactivweb ppcatiofatumutracking an y-following animasmjnye-1Mjn_EyMjn_EyMjenEyeMose&ETracker s 
-- -[@Majeayu](htps://ghb.cm/Majeayu) 
-- Shres- [@Shryas140472](https://thub.com/Sheyas140472
-3RcWeb**Live Demo:** [majen-eye-1.onrender.com](https://majen-eye-1.onrender.com/)
-MjenEyeeggngnrcivebppaobulwhRectthcreaa dyamicyerackxpeinefturnmatdys hafllowhe use'smusecuoriel-time,reaan mrivend pafuluserinrface.Thi projct demonstateavand DOM mnipulao,nhanl,and Ract comonnt achtturTMuTrakgEyfollowcursrmovmssmothlcoss the creen�️Anmaed EyeompntsRelist eeanimatinwit puplthttrck moveme  
-⚡ **HighPerfrmace** - Optimizedrenring wih Ra forsmoth60f anma🎨ResponsivDsiWks seamleslyllscrsizadevces🖱️UI Engaginguexrece dynamicfdback⚙️Pure JvScrp LogcNexrnalanmaolibrsrequ🎭Cuomzbe tomodfyyappaanc adbeavor
-### Frontend FrameworkReact 18.2.0Moden UI omponen libray
-- **Ract DOM** -Rect reeringfo webReact cripts 5.0.1 Buildoodevlomet erer
-
-### CorTechnologiA and event handlingHTL5Structu anmarku
-- **CSS3** -Sylg,imatins,nsitons
-
-### Developmet Toolsrete RectppProjcscffold builcnfigutionpackModul undling (viret-cript)
--**Bbel** -JaaScrpttranpilaion (via ct-scrpts)Mjn_Eypublc/
-│   ├── iMHTMLmplae│   maifs.jsonPWA mst│   └.. # Sacssets│
-r/
-│├──components/
-││└──EyeTracker.js   Mi eye trackcomonn│   Appj     Rotapplction omponn   iexs      Retntypot│   indxcss    Glbastyes   └..        Addionalcments│
-ackagjso         rojecdeedenciesackag-lockjso    Depedencylckfile.gtino  Gtgerus**N.js**(v14h**np**v6high or **yarn**Mod wbbrwsrChom, Frefox, Sfar,EdgeMjn_EyMjn_EyIsl dependenes ```bash
-nmsal
-```ingynyarnsall```
-
-3.**Starte develpmet**
-  ```bashnpmstart ```
-Oruyarn: ```bash
-yarsat4enbsr Thepp wiautmatcllypeat:
-```http://lclhos:3000
-  ```
-###BuildfrPrdcti
-
-```bsh
-pmrubuild
+```mermaid
+flowchart LR
+  Browser[Browser] --> React[React app]
+  React --> Tracker[EyeTracker component]
+  Tracker --> Media[Browser camera/media APIs]
+  React --> Static[public/index.html and manifest]
 ```
 
-Ticraesptimzeproductiuild in e `build/`irtory.Lunch thelve oun lcallyWatfoe eycompnnto ladMove YouMousMvyururud theWatheeyflowyurmvem3IntraiveExpeiencTpulsynacaadjustotracursoposiimniscraiymovmtWrkobdsktopouchdevcesEy TrakngAgrithmMuPosition javascript//Capturmous coornt
- ocuent.ddEventListene('mousemove',() => {
-     cons x = .letX;
-   coty = .cletY;});
-   ClculteAle & Distancermineangleetween eecenter crorClatitancepupldsplacemetApy trigooetictfrmasUpdtPpi PosiTrnfrmpupl poticalculappyCSS trsformsfr mothaimonrelicmvementcositsUpdatReciintly-npetqutAnimnF60fs
-   - Optmizd state maagmentMofyEyAppearacEditthCSS in pofiles:
+`src/index.js` bootstraps the React tree; `src/App.js` composes the tracker; CSS and static assets live under `src/` and `public/`.
 
-```sseye{
-wdh:100x;eh: 100px;
- brdr-adu 50%;bkgud:w;
-}
-
-.pupilwdh30x;
-  ig: 30x;bckgroudblck;
-  bdrrdiu: 50%; TrackSnivty thetrakclulainEyeTrake
-senivy01; // Adjubwen 0and1
-ot axDsance=0;  // Maximumpupilmovement
-```### AddMeEyes
-
-```jx<div className="eyes-ier">
-<EyeTrcke/>
-<yTrackr/>
-<EyeTracker/>
-</div>🌐Deplymel Redr**CnectGtHubRepsiy**   -Likyr Rndraccutt GitHb -SelMjen_Eyrposiy
-2**figurBuilSeing** ```
-Bul ommnd:pmrubuild  PubshDiecry:bild
-```3.**ply**   - Rdrauomaiclydeplos puh omanbranch   - Access via: mjnye-1
-
-### Dely to Ntlify
-
-```ash
-npm un build
-ntlify dploy --pod -dir=build
-```
-
-### Dply to Vecl
+## Local development
 
 ```bash
-pm run buil
-vel --prd```
-�FeatrBrekdw###Complted Feat✅
--Rea-memse tcking
--Smothy animasRaccomponnarchecture
--RepnsvedesiPrducn-edbuild
--LiveployRdrCr-bowrcomblity# 🚧Multipleyesyles(ron, liticlnBik animaions
--[ ] CFacalexpssi chge
--[ ] Wecm-baeye trackig
--[ ] Tuch eviceoptiiztion
-- [ ] 3D y effecond effects n inteacion
--[ ] Settings panel csomzation
-- [ ] Mobigetur suppot
+npm ci
+npm start
+# production bundle
+npm run build
+# interactive test runner
+npm test
+```
 
----
+The development server serves the app on the Create React App default port (usually `3000`). Camera access requires a secure origin (`localhost` is allowed by browsers) and explicit user permission.
 
-## 🎮 UeCaes
+## Data flow and configuration
 
-- **Interactve Websites** - Engaging ndig pag **EducationalTools**-Teching mouse ents React
-- **PortfolioProject** - Sowcsfntedskill
-- **Gaming Elmt** - Caracter eye racking **AccessibilityTesting**-ouse mvement vsuaization
- **Ceativ Exerimet** - Interact artintallatos
---
+Tracking data is produced in the browser by the `EyeTracker` component. No backend persistence or documented external API is present in this repository. The web manifest and `public/` assets define installable/PWA metadata.
 
-## 🐛 KnownIssues
+## Deployment
 
--Nonereportedurrenty
-- Perfrmaceay vary on lder evic
--Tuch tacking couldimpovd on mobieNewNewNewoensurcedvlbl foreduconpurpsss�ment Tam Role: LeadDeveloper
+Deploy the generated `build/` directory to a static host such as GitHub Pages, Netlify, or an object-storage/CDN origin. Configure the host with HTTPS and the correct SPA fallback so client routes resolve to `index.html`.
 
-**Shreya**
-- GHb[@Shres140472](https://github.com/Sheys140472)
--R:CtbutorRct TamamazgfmewokCeteRactAppthbild tolingRendehstngsrvieOpen SucComunityinspiupporMjn_Eyen)
+## Limitations
 
----
+Accuracy depends on camera quality, lighting, calibration, browser permissions, and the implementation of the tracker component. There is no repository-level telemetry, calibration-data persistence, or automated end-to-end coverage.
 
-## 📈 Vrsio History
+## Security and operations
 
-See [CHANGELOG.md](CHANGELOG.md for detailed version history. & Shreyas
+- Keep credentials, database URLs, OAuth tokens, API keys, and signing secrets in environment variables; never commit them.
+- Validate and constrain uploaded files and user input at the server boundary, and enable HTTPS in production.
+- Review dependency updates and rotate any credential that has appeared in repository history.
 
-**Follow Your Cursor** | **Interactive Design**
+## Testing
+
+The repository currently has no comprehensive automated test suite unless noted above. Before production changes, add tests for authentication/authorization, validation failures, persistence errors, and the primary user workflow.
+
+## Limitations and roadmap
+
+This is an actively evolving project. Production hardening, observability, rate limiting, backup/retention policy, and accessibility/performance validation should be completed before handling sensitive or high-volume workloads.
+
+## License
+
+See the repository license file and package metadata for the authoritative terms.
